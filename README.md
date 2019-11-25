@@ -1,12 +1,12 @@
-> **注意 Note:**  
-> * 要求 Python 3.x  
->   Python 3.x required
-> ---
-> * 适用于tModLoader 0.11+  
->   Applicable to tModLoader 0.11+
-> ---
-> * **仅供mod制作者使用，由于许多mod非开源，拆包前请仔细阅读mod的Licence，尊重作者的劳动成果.** 
-> **Only for modders, cause many mods aren't open source, please check out their licenses before you extract the .tmod file, respect authors' labor.**
+### 注意 Note: 
+* 要求 Python 3.x  
+   Python 3.x required
+---
+* 适用于tModLoader 0.11+  
+   Applicable to tModLoader 0.11+
+---
+* **仅供mod制作者使用，由于许多mod非开源，拆包前请仔细阅读mod的Licence，尊重作者的劳动成果.** 
+**Only for modders, cause many mods aren't open source, please check out their licenses before you extract the .tmod file, respect authors' labor.**
 
 
 ### 用法 Usage:
