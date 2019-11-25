@@ -12,7 +12,7 @@
 ### 用法 Usage:
 * extract `.tmod` file
   ```
-    python lauch.py mod1-path [mod2-path] ...
+    python launch.py mod1-path [mod2-path] ...
   ```
 ### TODO:
 - [x] .tmod file extraction
