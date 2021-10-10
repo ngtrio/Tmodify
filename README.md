@@ -5,7 +5,7 @@
 * 适用于tModLoader 0.11+  
    Applicable to tModLoader 0.11+
 ---
-* **仅供mod制作者使用，由于许多mod非开源，拆包前请仔细阅读mod的Licence，尊重作者的劳动成果.** 
+* **仅供mod制作者使用，由于许多mod非开源，拆包前请仔细阅读mod的Licence，尊重作者的劳动成果.**  
 **Only for modders, cause many mods aren't open source, please check out their licenses before you extract the .tmod file, respect authors' labor.**
 
 
@@ -14,11 +14,6 @@
   ```
     python launch.py mod1-path [mod2-path] ...
   ```
-### TODO:
-- [x] .tmod file extraction
-- [ ] .tmod file localization
-- [ ] performance optimization
-- [ ] tModLoader previous version support
 
 ### Tips:
 * .tmod data format  

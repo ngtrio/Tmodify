@@ -6,8 +6,6 @@ def read_int32(bs, order='little'):
     return int.from_bytes(bs.read(4), order)
 
 # 从TMOD二进制数据中读取string要按照C#中的BinaryReader.ReadString()读取方式
-
-
 def read_string(bs):
     length = 0
     flag = 1
@@ -29,6 +27,9 @@ def raw_to_png(bs, path):
     for i in range(num):
         x = i % width
         y = i / width
+        # 最近想起来两年前的一个小困惑
+        # 联系了下code author，确认是源码中变量命名有问题导致了误导的产生
+        # see: https://github.com/tModLoader/tModLoader/commit/13d8a2a224abe3e1b690afb2682caf212cb3fcf0#r57639071
         raw_color = read_int32(stream, 'big')
         r = raw_color >> 24 & 0xff
         g = raw_color >> 16 & 0xff
